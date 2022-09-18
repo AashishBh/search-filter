@@ -23,6 +23,7 @@ function App() {
               name="your-name"
               required=""
               autoComplete='off'
+              // important line to understand 
               onChange={event => {setSearchTerm(event.target.value)}}
             />
           </div>
